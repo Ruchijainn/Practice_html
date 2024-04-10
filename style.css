@@ -1,0 +1,653 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,200;0,300;0,400;1,100;1,500;1,600&family=Montserrat:ital,wght@0,100;0,300;0,500;0,700;0,900;1,100&family=Playfair+Display:ital,wght@0,400;0,500;1,400&family=Poppins:ital,wght@0,400;1,200&family=Sofia&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+    /* ############ HEADER ############# */
+.banner{
+    background:linear-gradient(rgba(0,0,0,0.50),rgba(0,0,0,0.50)),url("city1.jpg");
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    
+}
+.navbar .logo h1{
+    color: #e63946;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+
+
+    
+}
+
+.navbar .logo{
+    float: left;
+    margin-top: 10px;
+}
+.navbar{
+    padding-top: 15px;
+    
+}
+.navbar .nav-items{
+    
+    float: right;
+    padding-top: 20px;
+    
+    
+}
+.navbar::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+.nav-items .item a{
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    
+}
+.nav-items .item{
+    display: inline-block;
+    padding: 5px 20px;
+}
+.navbar a:hover{
+    border-bottom: 1.5px solid white;
+}
+.navbar a{
+    padding-bottom: 3px;
+}
+
+/* ######################## ABOUT PAGE NAVBAR ############################### */
+
+.navbar-bg{
+    height: 100px;
+    background-color: #263238;
+}
+.about h1{
+    padding-top: 30px;
+    color: #e63946;
+    font-family: 'Montserrat', sans-serif;
+    
+    font-weight: 500;
+    
+
+}
+
+.about h1:after{
+    content: "";
+    display: block;
+    border: 1.2px solid #e63946;
+}
+.about p{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    font-size: 15px;
+    padding-top: 10px;
+}
+.box-wrapper{
+    
+    
+}
+.box{
+    
+    float: left;
+    text-align: center;
+    width: 50%;
+}
+.box-1{
+    float: left;
+}
+.box-2{
+    float: right;
+}
+.box-wrapper:after{
+    content: "";
+    display: block;
+    clear: both;
+}
+.box li{
+    list-style: none;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    font-size: 15px;
+    padding: 5px;
+    
+}
+.box span{
+    color: #e63946;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 100;
+}
+.box ul{
+    padding-top: 20px;
+}
+/* ################ COUNT Styling ################### */
+.count{
+    
+    text-align: center;
+    margin-top: 25px;
+   
+}
+.travel{
+    
+    width: 25%;
+    float: left;
+    
+    
+}
+.guide{
+    
+    width: 25%;
+    float: left;
+    
+}
+.place{
+   
+    width: 25%;
+    float: left;
+    
+}
+.sport{
+    
+    width: 25%;
+    float: left;
+   
+}
+.count::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+.count h2{
+    font-family:  'Montserrat', sans-serif;
+    color: #e63946;
+    letter-spacing: 2px;
+    padding-top: 15px;
+}
+.count p{
+    font-family:  'Montserrat', sans-serif;
+    color: rgb(83, 81, 81);
+    font-weight: 500;
+    font-size: 17px;
+    margin-top: 5px;
+    line-height: 2px;
+    margin-bottom:5px;
+}
+.about-footer{
+    
+    margin-top: 30px;
+    height: 70px;
+    background: linear-gradient(25deg,#d64c7f,#ee4758);
+    box-shadow: 5px 5px 20px 2px black;
+}
+.left{
+    float: left;
+}
+.right{
+    float: right;
+}
+.about-footer::after{
+    content: "";
+    clear: both;
+    display: block;
+}
+.about-footer p{
+    color: white;
+    padding: 25px 30px;
+    font-family:  'Montserrat', sans-serif;
+    font-size: 17px;
+}
+.about-footer button{
+    background: linear-gradient(25deg,#d64c7f,#ee4758);
+    border: 3px solid white;
+    
+    
+    padding: 10px 80px;
+    margin: 12.5px 80px;
+    color: white;
+    font-size: 17px;
+   
+}
+
+
+
+/* ################## CONTENT ################## */
+
+.content h1{
+    color: #fff;
+    text-align: center;
+    padding: 10px 0px;
+    font-family:'Montserrat', sans-serif;
+    font-weight: 800;
+    font-size: 60px;
+    color: #ffffff;
+    
+}
+
+.content p{
+    color: #fff;
+    text-align: center;
+    padding: 5px 0px;
+    font-family:'Montserrat', sans-serif
+}
+
+.content{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    
+}
+.content a{
+    display: inline-block;
+    color: white;
+    font-family:'Montserrat', sans-serif; ;
+    margin: 17px 220px;
+    text-decoration: none;
+    border-radius: 32px;
+    padding: 8px 40px;
+    /* border: 1px solid #263238;
+    background-color: #263238; */
+}
+.content a:hover{
+    background-color: #e63946;
+    
+    
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    /* #####################SHOWCASE/SECONDPAGE############### */
+.showcase{
+    background-color: #dddddd;
+    padding: 70px 0px;
+    
+    
+   
+}
+.container{
+    width: 75%;
+    margin: 0 auto;
+
+    
+}
+
+.row{
+    height: 350px;
+    box-shadow: 5px 5px 20px 0px rgba(14, 14, 14, 0.459);
+    
+}
+.row1{
+    margin-bottom: 70px;
+}
+.image-box{
+    
+}
+.text-box{
+    background-color: #ffffff;
+    
+}
+.row1 .image-box{
+    float: left;
+    height: 100%;
+    width: 50%;
+}
+.row2 .text-box{
+    float: left;
+    height: 100%;
+    width: 50%;
+}
+.row1 .text-box{
+    float: right;
+    height: 100%;
+    width: 50%;
+}
+.row2 .image-box{
+    float: right;
+    height: 100%;
+    width: 50%;
+}
+img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.text-box h3{
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 37px;
+    padding-top: 60px;
+    color: #e63946;
+
+}
+.text-box p{
+    padding: 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+    text-align: center;
+}
+.text-box a{
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+    margin-left: 304px;
+    border-radius: 30px;
+    padding: 8px 28px;
+    background-color: #263238;
+
+}
+.text-box a:hover{
+    background-color: #e63946;
+    
+}
+
+
+/* ############################# FEATURE ########################## */
+
+
+.feature{
+    padding: 75px 0px;
+}
+.sustainable{
+   
+    width: 33%;
+    float: left;
+    text-align: center;
+    padding: 20px;
+    background-color: #263238;
+    color:  white;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+}
+.low-price{
+    
+    width: 33%;
+    float: left;
+    text-align: center;
+    padding: 20px;
+    background: linear-gradient(25deg,#d64c7f,#ee4758);
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300; 
+}
+.convinence{
+    
+    width: 33%;
+    float: left;
+    text-align: center;
+    padding: 20px;
+    background-color: #263238;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+}
+.feature::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+h2{
+    margin-bottom: 10px;
+}
+
+
+/* ################### FOOTER SECTION ############################# */
+
+.footer{
+    
+    height: 100px;
+    text-align: center;
+    padding: 25px;
+    background-color: #263238;
+}
+.socia-icons{
+    text-align: center;
+    margin-bottom: 10px;
+    color: white;
+}
+i{
+    padding: 0px 5px;
+}
+.reserved p{
+    font-size: 15px;
+    color: white;
+}
+
+/* ############### CONTACT PAGE STYLING ######################### */
+
+
+.contact-banner{
+    background-color: #dddddd;
+    height: 100vh;
+}
+.info{
+    padding: 10px;
+    float: left;
+    width: 45%;
+    margin-top: 50px;
+    background-color: #fff;
+    box-shadow: 5px 5px 20px 5px rgba(0, 0, 0, 0.406);
+}
+.information{
+    
+    padding: 5px;
+}
+.information h1{
+    color: #e63946;
+    padding-bottom: 5px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    
+}
+.information p{
+    font-family: 'Montserrat', sans-serif; 
+    color: #454748;
+}
+iframe{
+    width: 100%;
+    height: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.map{
+    margin-top:30px; 
+    height: 300px;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.user-info{
+    
+    float: right;
+    width: 45%;
+    margin-top: 50px;
+    background-color: #fff;
+    padding: 5px;
+    height: 521px;
+    box-shadow: 5px 5px 20px 5px rgba(0, 0, 0, 0.406);
+}
+.container::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+.contact-us h1{
+    color: #454748;
+    padding-bottom: 2px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 25px;
+    border-bottom: 3px solid #e63946;
+    letter-spacing: 1.5px;
+    
+}
+.contact-us p{
+    padding-top: 5px;
+    font-family:'Montserrat', sans-serif ;
+    font-size: 12px;
+    color: #454748;
+}
+.form p{
+    font-family: 'Montserrat', sans-serif;
+    color: #454748;
+    font-size: 11px;
+    text-transform: capitalize;
+    padding: 3px 0px;
+}
+input[type="button"]{
+    padding: 5px 10px;
+    margin-left: 160px;
+    background-color: #e63946;
+    color: black;
+    border-radius: 5px;
+   
+}
+
+
+
+/* #################### Media Query ######################### */
+
+@media (max-width:700px){
+    .navbar .logo{
+        float: none;
+        width: 100%;
+        text-align: center;
+        margin-bottom: 2px;
+
+    }
+    .navbar .nav-items{
+        float: none;
+        width: 100%;
+        text-align: center;
+        padding-top: 5px;
+
+    }   
+    .nav-items .item a{
+        font-size: 12px;
+    }
+    .nav-items .item{
+        padding: 2px 8px;
+        
+    }
+    .content h1{
+        font-size: 25px;
+    }
+    .content p{
+        font-size: 14px;
+    }
+
+
+    .row1 .image-box{
+        float: none;
+        
+        width: 100%;
+    }
+    .row2 .text-box{
+        float: none;
+        height:320px;
+        width: 100%;
+    }
+    .row1 .text-box{
+        float: none;
+        height:320px;
+    
+        width: 100%;
+    }
+    .row2 .image-box{
+        float: none;
+       
+        width: 100%;
+    }
+    .row{
+        height: auto;
+        
+    }
+
+    .sustainable{
+        float: none;
+        width: 100%;
+        margin-bottom:5px ;
+    }
+    .low-price{
+    float: none;
+    width: 100%;
+    margin-bottom:5px ;
+    }
+    .convinence{
+    float: none;
+    width: 100%;
+    margin-bottom:5px ;
+    }
+    
+
+    
+    
+
+
+    
+
+}
